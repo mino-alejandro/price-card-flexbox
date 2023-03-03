@@ -1,0 +1,176 @@
+body {
+    background-color:#e6eff6;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .flex-container {
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px darkgray;
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    margin:auto;
+    margin-top:20px;
+  }
+  
+  .flex-container, p, h2, h4, h1{
+    margin-left:8%;
+    margin-right:8%;
+  }
+  
+  .top-section {
+    background-color: white;
+    width:100%;  
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+  }
+  
+  .bottom-left-section {
+    background-color: #2bb3b1;
+    width:100%;
+  }
+  
+  .bottom-right-section {
+    background-color: #4abebd;
+    width:100%;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+  }
+  
+  #title {
+    color: #2bb3b1;
+  }
+  
+  .yellow-text {
+    color: #abce0f;
+  }
+  
+  .gray-text {
+    color: #9299a1;
+    margin-bottom:8%;
+    line-height:29px;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  #sign-up-btn {
+    font-size:1.05rem;
+    background-color: #bbda32;
+    width: 84%;
+    margin-left:8%;
+    margin-right:8%;
+    margin-bottom: 8%;
+    border: none;
+    padding: 15px;
+    border-radius:7px;
+  }
+  
+  #sign-up-btn:hover {
+    filter: brightness(1.05);
+    cursor: pointer;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number {
+    margin-left:8%;
+    color:white;
+    font-size:2rem;
+  }
+  
+  .per-month {
+    opacity:0.5;
+    color:white;
+    margin-left: 2%;
+  }
+  
+  ul {
+    opacity:0.8;
+    list-style: none;
+    margin-left: -2%;
+    margin-bottom:8%;
+  }
+  
+  @media only screen and (min-width: 650px){
+    body{
+    font-size:1rem;
+    }
+    .flex-container {
+      margin:auto;
+      margin-top:40px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width:600px;
+      height:400px;
+    }
+    .top-section {
+      width:100%;
+      height:40%;
+    }
+    .bottom-right-section {
+      border-bottom-left-radius:0px;
+      width:50%;
+      height:60%;
+    }
+    .bottom-left-section {
+      border-bottom-left-radius:15px;
+      width:50%;
+      height:60%;
+    }
+    
+    #title{
+      position:relative;
+      left:-13px;
+    }
+    
+    .yellow-text{
+      position:relative;
+      top:-10px;
+      left:-13px;
+    }
+    .gray-text{
+      position: relative;
+      line-height:18px;
+      top: -20px;
+      left:-13px;
+    }
+    .why {
+      position:relative;
+      left:10px;
+    }
+    
+    #monthly{
+      margin-left:12%;
+    }
+    
+    .number{
+      margin-left:12%;
+    }
+    
+    #full-access{
+      font-size:0.96rem;
+      margin-left:12%;
+      margin-right:12%;
+    }
+    
+    #sign-up-btn{
+      position:relative;
+      bottom:-10px;
+      margin:auto;
+      margin-bottom:12%;
+      margin-left:12%;
+      width: 76%;
+    }
+    
+    ul {
+      position:relative;
+      bottom:-1px;
+      line-height:21px;
+    }
+  }
